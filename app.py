@@ -27,7 +27,7 @@ def index():
 @app.route('/api/lyft_sept_2014')
 @cross_origin()
 def lyft_sept_2014():
-    cs_info = [doc for doc in db.week1_sept_2014.find({}, {'_id': False})]
+    cs_info = [doc for doc in db.sept_5.find({}, {'_id': False})]
     cs_info_format = {"data": cs_info}
     # print(cs_info)
     return jsonify(cs_info_format)
