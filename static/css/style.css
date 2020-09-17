@@ -8,32 +8,44 @@ html {
 body{
   padding: 0px;
   margin: 0px;
-  background-color: rgb(238, 235, 235);
+  background-color: white;
 }
 
 /*Words*/
-h1{  
-  font-size: 32px;
+h1{
+  text-align: center;
+  font-size: 38px;
   font-weight: bold;
   color: rgb(255, 0, 191);
+  font-family: f3c3;
 }
 
 /*Navbar*/
 .navbar-brand{
   background-color:white;
-  font-weight: bold;
   text-align: center;
   padding: 10px
 }
 
+.dropdown-item {
+  color: rgb(255, 0, 191)
+}
+
+.nav-link {
+  color: rgb(255, 0, 191)
+}
+
 .navbar{
   background-color: white !important;
-  padding: 1px
+  font-family: f3c3;
 }
 
 #main_img{
-  height:50%;
-  width:50%
+  height:auto;
+  width:auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 /*Container*/
 .container{
