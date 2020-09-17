@@ -1,0 +1,19 @@
+#backgrdcolor {
+	background-color: lightseagreen;
+	color: white;
+	font-size: 30px;
+}
+
+h2 {
+	color: lightseagreen;
+}
+
+h3 {
+	color: lightseagreen;
+}
+
+.description-content{
+	padding: 30px;
+	margin: 30px;
+	background-color: #fff;
+}
