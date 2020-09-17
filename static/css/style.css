@@ -1,10 +1,60 @@
-body {
-  padding: 0px;
-  margin: 0px;
-}
-
 #map,
 body,
 html {
   height: 100%;
 }
+
+/*Body*/
+body{
+  padding: 0px;
+  margin: 0px;
+  background-color: rgb(238, 235, 235);
+}
+
+/*Words*/
+h1{  
+  font-size: 32px;
+  font-weight: bold;
+  color: rgb(255, 0, 191);
+}
+
+h2{
+  font-size: 26px;
+  font-weight: bold;
+  color: rgb(255, 0, 191);
+}
+
+h3{
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(255, 0, 191);
+}
+
+/*Navbar*/
+.navbar-brand{
+  background-color:white;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px
+}
+
+.navbar{
+  background-color: white !important;
+  padding: 1px
+}
+
+#main_img{
+  height:50%;
+  width:50%
+}
+/*Container*/
+.container{
+  background-color:white;
+}
+
+/*Media query*/
+.navbar{
+  background-color: white !important;
+}
+
+
